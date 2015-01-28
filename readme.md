@@ -1,16 +1,8 @@
-<p align="center">
-<img src="https://github.com/cjdelisle/cryptpad/raw/master/cryptofist.png" width="60%">
-</p>
+## CryptSheet Zero-Knowledge Collaborative Spreadsheet based on ChainPad
 
-Unity is Strength - Collaboration is Key
-
-
-
-![and_so_it_begins.png](https://github.com/cjdelisle/cryptpad/raw/master/and_so_it_begins.png "We are the 99%")
-
-CryptPad is the **zero knowledge** realtime collaborative editor.
+CryptSheet is the **zero knowledge** realtime collaborative spreadsheet editor.
 Encryption carried out in your web browser protects the data from the server, the cloud
-and the NSA. This project uses the [CKEditor] Visual Editor and the [ChainPad] realtime
+and the NSA. This project uses the [JQuerySheet] Spreadsheet and the [ChainPad] realtime
 engine. The secret key is stored in the URL [fragment identifier] which is never sent to
 the server but is available to javascript so by sharing the URL, you give authorization
 to others who want to participate.
@@ -27,9 +19,9 @@ To install:
 
 ## Security
 
-CryptPad is *private* not *anonymous*. Privacy protects your data, anonymity protects you.
+CryptSheet is *private* not *anonymous*. Privacy protects your data, anonymity protects you.
 As such, it is possible for a collaborator on the pad to include some silly/ugly/nasty things
-in a CryptPad such as an image which reveals your IP address when your browser automatically
+in a CryptSheet such as an image which reveals your IP address when your browser automatically
 loads it or a script which plays Rick Asleys's greatest hits. It is acceptable for anyone
 who does not have the key to be able to change anything in the pad or add anything, even the
 server.
@@ -41,25 +33,15 @@ get caught and laughed at and humiliated in front of the whole world (again). If
 the NSA mad enough for them to use an active attack against you, Great Success Highfive, now take
 the battery out of your computer before it spawns Agent Smith.
 
-Still there are other low-lives in the world so using CryptPad over HTTPS is probably a good idea.
-
-## Contributing
-
-We love Open Source and we love contribution. It is our intent to keep this project available
-under the AGPL license forever but in order to finance more development on this and other FOSS
-projects, we also wish to sell other licenses to this software. Before making a pull request,
-please read and
-[sign the Commons Management Agreement](https://www.clahub.com/agreements/cjdelisle/cryptpad).
+Still there are other low-lives in the world so using CryptSheet over HTTPS is probably a good idea.
 
 ### License
 
 This software is and will always be available under the GNU Affero General Public License as
 published by the Free Software Foundation, either version 3 of the License, or (at your option)
-any later version. If you wish to use this technology in a proprietary product, please contact
-sales@xwiki.com
-
+any later version.
 
 [ChainPad]: https://github.com/xwiki-contrib/chainpad
-[CKEditor]: http://ckeditor.com/
+[JQuerySheet]: http://visop-dev.com/Project+jQuery.sheet
 [fragment identifier]: https://en.wikipedia.org/wiki/Fragment_identifier
 [active attack]: https://en.wikipedia.org/wiki/Attack_(computing)#Types_of_attacks
