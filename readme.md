@@ -1,5 +1,7 @@
 ## CryptSheet Zero-Knowledge Collaborative Spreadsheet based on ChainPad
 
+[![XWiki labs logo](https://raw.githubusercontent.com/xwiki-labs/xwiki-labs-logo/master/projects/xwikilabs/xlabs-project.png "XWiki labs")](https://labs.xwiki.com/xwiki/bin/view/Main/WebHome)
+
 CryptSheet is the **zero knowledge** realtime collaborative spreadsheet editor.
 Encryption carried out in your web browser protects the data from the server, the cloud
 and the NSA. This project uses the [JQuerySheet] Spreadsheet and the [ChainPad] realtime
